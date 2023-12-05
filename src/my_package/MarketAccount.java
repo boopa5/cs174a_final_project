@@ -37,7 +37,7 @@ public class MarketAccount {
         }
 
 
-        private String mid;
-        private String balance;
+        private int mid;
+        private float balance;
         private String username;
     }
