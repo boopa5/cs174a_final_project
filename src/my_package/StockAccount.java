@@ -21,12 +21,12 @@ public class StockAccount {
             return symbols;
         }
 
-        //GetStock TODO
+        //TODO GetStock 
         public void getStock() {
             //return stock;
         }
 
-        //GetCustomerProfile TODO
+        //TODO GetCustomerProfile 
         public void getCustomerProfile() {
         }
 

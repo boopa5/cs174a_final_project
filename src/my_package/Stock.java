@@ -24,6 +24,11 @@ public class Stock {
             return symbol;
         }
 
+        //TODO add get Actor Director
+        public void getAssociatedActorDirector(){
+            
+        }
+
         public void setId(int id) {
             this.id = id;
         }
