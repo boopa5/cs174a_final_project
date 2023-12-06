@@ -54,7 +54,7 @@ public class StockAccount {
         @Override
         public String toString() {
             //+ ", Stock=" + stock.toString() ", Customer Profile=" + customer_profile.toString()
-            return "[sid=" + id + ", username=" + username + ", symbols=" + symbols  +"]";
+            return "[sid=" + sid + ", username=" + username + ", symbols=" + symbols  +"]";
         }
 
 
