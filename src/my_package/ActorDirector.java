@@ -6,8 +6,6 @@ public class ActorDirector {
         this.name = name;
         this.symbol = symbol;
         this.dob = dob;
-        //this.stock = stock;
-        //this.customer_profile = customer_profile;
     }
 
     public int getId() {
@@ -46,16 +44,9 @@ public class ActorDirector {
     public void setDob(String dob) {
         this.dob = dob;
     }
-    /*
-    public void setStock(Stock stock) {
-        this.stock = stock;
-    }
-    
-    */
 
     @Override
     public String toString() {
-        //+ ", Stock=" + stock.toString() ", Customer Profile=" + customer_profile.toString()
         return "[id=" + id + ", name=" + name + ", symbol=" + symbol + ", dob=" + dob"]";
     }
 

@@ -31,6 +31,15 @@ public class Deposit {
         this.amount = amount;
     }
 
+    //TODO
+    public void deposit(){
+
+    }
+    //TODO
+    public void getMarketAccount(){
+        
+    }
+
 
     @Override
     public String toString() {

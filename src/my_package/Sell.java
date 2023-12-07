@@ -55,6 +55,19 @@ public class Sell {
     public void setQuant(float quant) {
         this.quant = quant;
     }
+    //TODO
+    public void executeSell(float quant, Stock stock){
+
+    }
+    //TODO
+    public void deposit(){
+
+    }
+    //TODO
+    public void getStockAccount(){
+        
+    }
+
 
 
     @Override

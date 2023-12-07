@@ -31,6 +31,14 @@ public class AccrueInterest {
         this.amount = amount;
     }
 
+    //TODO
+    public void calculateInterest(){
+
+    }
+    //TODO
+    public void getMarketAccount(){
+        
+    }
 
     @Override
     public String toString() {

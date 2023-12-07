@@ -58,6 +58,15 @@ public class ContractDirector {
         this.year = year;
     }
 
+    //TODO
+    public void getMovie(){
+
+    }
+    //TODO
+    public void getDirector(){
+        
+    }
+
     @Override
     public String toString() {
         return "[title=" + title + ", production year=" + prod_year + ", id=" + id + ", role=" + role + ", year=" + year + ", value=" + value + "]";

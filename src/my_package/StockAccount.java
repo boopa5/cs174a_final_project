@@ -5,8 +5,6 @@ public class StockAccount {
             this.sid = sid;
             this.username = username;
             this.symbols = symbols;
-            //this.stock = stock;
-            //this.customer_profile = customer_profile;
         }
 
         public int getSid() {
@@ -23,7 +21,6 @@ public class StockAccount {
 
         //TODO GetStock 
         public void getStock() {
-            //return stock;
         }
 
         //TODO GetCustomerProfile 
@@ -41,19 +38,9 @@ public class StockAccount {
         public void setSymbols(String symbols) {
             this.symbols = symbols;
         }
-        /*
-        public void setStock(Stock stock) {
-            this.stock = stock;
-        }
-        
-        public void setCustomerProfile(CustomerProfile customer_profile) {
-            this.customer_profile = customer_profile;
-        }
-        */
 
         @Override
         public String toString() {
-            //+ ", Stock=" + stock.toString() ", Customer Profile=" + customer_profile.toString()
             return "[sid=" + sid + ", username=" + username + ", symbols=" + symbols  +"]";
         }
 
@@ -61,6 +48,4 @@ public class StockAccount {
         private int sid;
         private String username;
         private String symbols;
-        //private Stock stock;
-        //private CustomerProfile customer_profile;
     }

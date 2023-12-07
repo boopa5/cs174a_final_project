@@ -30,6 +30,18 @@ public class Cancel {
         this.sid = sid;
     }
 
+    //TODO
+    public void cancelTransaction(Transaction transaction){
+
+    }
+    //TODO
+    public void getCanCancelTransaction(){
+
+    }
+    //TODO
+    public void getStockAccount(){
+        
+    }
 
     @Override
     public String toString() {

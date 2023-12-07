@@ -22,6 +22,11 @@ public class About {
         this.title = title;
     }
 
+    //TODO
+    public void getMovie(){
+
+    }
+
     @Override
     public String toString() {
         return "[title=" + title + ", production year=" + prod_year +  "]";

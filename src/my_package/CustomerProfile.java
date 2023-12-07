@@ -67,6 +67,19 @@ public class CustomerProfile {
             this.password = password;
         }
 
+        //TODO
+        public void updateProfile(){
+
+        }
+        //TODO
+        public void getMarketAccount(){
+
+        }
+        //TODO 
+        public void getStockAccounts(){
+            
+        }
+
         @Override
         public String toString() {
             return "[email=" + email + ", name=" + name + ", password=" + password + ", phoneNo="

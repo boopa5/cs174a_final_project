@@ -26,7 +26,7 @@ public class Stock {
 
         //TODO add get Actor Director
         public void getAssociatedActorDirector(){
-            
+
         }
 
         public void setId(int id) {
@@ -48,8 +48,6 @@ public class Stock {
         public String toString() {
             return "[id=" + id + ", closing_price=" + closing_price + ", current_price=" + current_price + ", symbol=" + symbol + "]";
         }
-
-        //String symbol, float closing_price, float current_price, int id
         private int id;
         private float closing_price;
         private float current_price;

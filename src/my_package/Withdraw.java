@@ -31,6 +31,15 @@ public class Withdraw {
         this.amount = amount;
     }
 
+    //TODO
+    public void withdraw(){
+
+    }
+    //TODO
+    public void getMarketAccount(){
+        
+    }
+
 
     @Override
     public String toString() {

@@ -7,7 +7,7 @@ public class Movie {
         this.rating = rating;
     }
 
-    public int getoProdYear() {
+    public int getProdYear() {
         return prod_year;
     }
 

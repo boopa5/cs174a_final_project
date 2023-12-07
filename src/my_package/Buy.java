@@ -48,6 +48,18 @@ public class Buy {
         this.quant = quant;
     }
 
+    //TODO
+    public void executeBuy(float quant, Stock stock){
+
+    }
+    //TODO
+    public void withdraw(){
+
+    }
+    //TODO
+    public void getStockAccount(){
+
+    }
 
     @Override
     public String toString() {
